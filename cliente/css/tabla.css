@@ -1,0 +1,44 @@
+/* Estilos del escritorio */
+.tabla {
+    border-collapse: collapse;
+    width: 80vw;
+    hyphens: auto;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: center;
+    margin: auto;
+}
+
+.cabecera {
+    text-transform: capitalize;
+    background-color: indianred;
+}
+
+.cuerpoTabla {
+    border: 1px solid black;
+    padding: 3px 5px;
+}
+ 
+.columnas {
+    min-width: 6vw;
+}
+
+
+.gris {
+    background-color: #ccc;
+}
+
+.puntero {
+    cursor: pointer;
+}
+
+
+/*--------------------------WEB RESPONSIVE--------------------------*/
+
+
+/*tablets grandes*/
+@media screen and (max-width: 900px) {
+    .tabla {
+        width: 97vw;   
+    }
+}

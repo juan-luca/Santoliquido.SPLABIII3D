@@ -1,0 +1,223 @@
+h1{
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: gainsboro;
+    
+    
+}
+.imgLogo{
+    margin-left: 1vw;
+    margin-top: 1vw;
+    width: 7vw;
+    height: 4vw;
+}
+
+header {
+    background: rgb(37, 150, 190);
+    width: 97vw;
+    height: 6vw;
+    padding: 0;
+  margin: 0;
+  }
+  footer {
+    background: rgb(37, 150, 190);
+    width: 97vw;
+    height: 6vw;
+    padding: 0;
+  margin: 0;
+  }
+  .navfooterL {
+    float: left;
+    display: block; 
+    padding: 2vw;
+  }
+  .navfooterR {
+    float: right;
+    display: block; 
+    padding: 2vw;
+  }
+  footer a {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2vw;
+    display: inline-block; 
+    padding: 0.5vw;
+    text-decoration: none;
+    overflow: hidden;
+    color: floralwhite; 
+
+  }
+ 
+  .navHeader {
+    float: right;
+    display: block; 
+    padding: 2vw;
+  }
+  #ddlFiltroTrans{
+    max-width: 30vw;
+  }
+  #promPrecio{
+    max-width: 30vw;
+  }
+
+  .navHeader a {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2vw;
+    display: inline-block; 
+    padding: 0.5vw;
+    text-decoration: none;
+    overflow: hidden;
+    color: floralwhite; 
+
+  }
+
+  .navHeader a:hover {
+    background: #eca023;
+  }
+
+.banner{
+    width: 97vw;
+    height: 15vw;
+    margin: auto;
+    
+}
+
+.container{
+    width: 96vw;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+
+.container .divFrm{
+    width: 60vw;
+    margin: auto;
+}
+
+
+
+/*--------------------------WEB RESPONSIVE--------------------------*/
+/*notebooks -24% *0.76*/
+@media screen and (max-width: 1300px) {
+
+    
+.imgLogo{
+    margin-left: 1.2vw;
+    margin-top: 0.5vw;
+    width: 10vw;
+    height: 7vw;
+}
+
+header {
+    height: 8vw;
+  }
+
+.banner{
+    height: 18vw;
+    
+}
+    
+    
+   
+    
+
+}
+
+/*tablets grandes -18%  *0.82*/
+@media screen and (max-width: 1000px) {
+
+    .imgLogo{
+        width: 15vw;
+        height: 9vw;
+    }
+    
+    header {
+        height: 11vw;
+      }
+    
+    .banner{
+        height: 20vw;
+        
+    }
+    .navHeader {
+        padding: 3vw;
+      }
+    .navHeader a {
+
+        font-size: 2vw;
+        padding: 1.2vw;
+    
+      }
+    
+
+}
+
+/*tablets medianas -24%  *0.76*/
+@media screen and (max-width: 767px) {
+
+    .imgLogo{
+        width: 19vw;
+        height: 13vw;
+    }
+    
+    header {
+        height: 15vw;
+      }
+    
+    .banner{
+        height: 23vw;
+        
+    }
+
+    .navHeader {
+        padding: 5vw;
+      }
+    .navHeader a {
+
+        font-size: 2.4vw;
+        padding: 1.5vw;
+    
+      }
+
+}
+
+/*smartphones -37% *0.63*/
+@media screen and (max-width: 490px) {
+   
+    .imgLogo{
+        width: 32vw;
+        height: 20vw;
+    }
+    
+    header {
+        height: 22vw;
+      }
+    
+    .banner{
+        height: 30vw;
+        
+    }
+
+    .navHeader {
+        padding: 8vw;
+      }
+    .navHeader a {
+
+        font-size: 3vw;
+        padding: 0.5vw;
+    
+      }
+  
+}
+
+
+
+
+
+
+
+

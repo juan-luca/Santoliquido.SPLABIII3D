@@ -1,0 +1,14 @@
+
+.loader {
+	
+	position:fixed;
+	z-index: 100;
+	top: 50%;
+	left: 50%;
+	display: flex;
+	transform: translate(-50%, -50%);
+	height: 15vw;
+	width: 20vw;
+	
+}
+

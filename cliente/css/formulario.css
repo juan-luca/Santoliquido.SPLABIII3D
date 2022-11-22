@@ -1,0 +1,83 @@
+
+
+.rd{
+    
+    padding: 10vw;
+    width: 10vw;
+}
+
+.divTransaccion{
+    width: 15vw;
+    display: inline-block;
+
+}
+
+.lblRd{
+    text-align: left;
+}
+
+
+.divIco .txtIco{
+    
+    width: 16.4vw;
+    display: inherit; 
+    padding: 0;
+}
+.divEspec{
+    width: 60vw;
+    padding-block-start:0%;
+    display: inline-block;
+    
+    
+}
+.divEspec .divIco{
+    max-width: 20vw;
+    display: inline-block;
+    
+    
+}
+
+.icono{
+    width: 1vw;
+    height: 1vw;
+    display: inherit;
+    
+}
+
+
+
+/*--------------------------WEB RESPONSIVE--------------------------*/
+
+
+/*tablets grandes*/
+@media screen and (max-width: 1300px) {
+  
+    .icono{
+        width: 2vw;
+        height: 2vw;
+        display: inline-block;
+        
+    }
+    .divIco .txtIco{
+        width: 15vw;
+    }
+
+}
+
+/*tablets medianas -24%  *0.76*/
+@media screen and (max-width: 767px) {
+    .icono{
+        width: 7vw;
+        height: 7vw;
+        display: block;
+        
+    }
+    .divEspec .divIco{
+        display: block;
+    }
+    .divIco .txtIco{
+        width: 55.3vw;
+    }
+ 
+    
+}

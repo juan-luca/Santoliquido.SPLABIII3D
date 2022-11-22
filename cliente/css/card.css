@@ -1,0 +1,50 @@
+
+
+/*Body*/
+
+
+.pPrecio{
+    
+    color: #98ba2d;
+}
+.divEspec{
+    text-align: center;
+    width: 60vw;
+    display: inline-block;
+    height: 8vw;
+    padding: 5vw;
+    margin-left: 4.5vw;
+    
+}
+.divEspec .divIco{
+    width: 15vw;
+    height: inherit;
+    display: inherit;
+    text-align: center;
+}
+.divEspec .divIco .ico{
+    width: 5vw;
+    height: 5vw;
+    display: inline;
+}
+
+
+
+/*Footer*/
+
+.btn-orange{
+    margin: auto;
+    background-color: #e08709;
+    color: white;
+    font-weight: 500;
+    font-size: 1vw;
+    border:none;
+    width: 21.8vw;
+    height: 5vh;
+    
+}
+
+.btn-orange:hover{
+    background-color: #f0910d!important;
+    color: white!important;
+}
